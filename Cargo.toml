@@ -58,9 +58,9 @@ uuid = { features = ["v4"], optional = true, version = "1" }
 default-features = false
 optional = true
 # version = "0.12.0"
-git = "https://github.com/serenity-rs/serenity.git"
+git = "https://github.com/HyperHamster/serenity.git"
 # branch = "current"
-rev = "4bf09a883168b8c1998e78774cadd56cbc6407c3"
+# rev = "4bf09a883168b8c1998e78774cadd56cbc6407c3"
 features = ["voice", "gateway"]
 
 [dev-dependencies]
