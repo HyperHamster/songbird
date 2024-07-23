@@ -36,6 +36,7 @@ rusty_pool = { optional = true, version = "0.7" }
 serde = { version = "1", features = ["derive"] }
 serde-aux = { optional = true, version = "4"}
 serde_json = "1"
+# serenity = { default-features = false, optional = true, version = "0.12.0", features = ["voice", "gateway"] }
 serenity-voice-model = { optional = true, version = "0.2" }
 simd-json = { features = ["serde_impl"], optional = true, version = "0.13" }
 socket2 = { optional = true, version = "0.5" }
@@ -57,10 +58,7 @@ uuid = { features = ["v4"], optional = true, version = "1" }
 [dependencies.serenity]
 default-features = false
 optional = true
-# version = "0.12.0"
 git = "https://github.com/HyperHamster/serenity.git"
-# branch = "current"
-# rev = "4bf09a883168b8c1998e78774cadd56cbc6407c3"
 features = ["voice", "gateway"]
 
 [dev-dependencies]
